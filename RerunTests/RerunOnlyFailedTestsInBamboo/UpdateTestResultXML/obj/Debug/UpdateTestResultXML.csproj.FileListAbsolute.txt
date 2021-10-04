@@ -1,0 +1,13 @@
+D:\repos\nucleus_selenium\RerunTests\RerunOnlyFailedTestsInBamboo\UpdateTestResultXML\bin\Debug\UpdateTestResultXML.exe.config
+D:\repos\nucleus_selenium\RerunTests\RerunOnlyFailedTestsInBamboo\UpdateTestResultXML\bin\Debug\UpdateTestResultXML.exe
+D:\repos\nucleus_selenium\RerunTests\RerunOnlyFailedTestsInBamboo\UpdateTestResultXML\bin\Debug\UpdateTestResultXML.pdb
+D:\repos\nucleus_selenium\RerunTests\RerunOnlyFailedTestsInBamboo\UpdateTestResultXML\obj\Debug\UpdateTestResultXML.csproj.CoreCompileInputs.cache
+D:\repos\nucleus_selenium\RerunTests\RerunOnlyFailedTestsInBamboo\UpdateTestResultXML\obj\Debug\UpdateTestResultXML.exe
+D:\repos\nucleus_selenium\RerunTests\RerunOnlyFailedTestsInBamboo\UpdateTestResultXML\obj\Debug\UpdateTestResultXML.pdb
+D:\repos\nucleus_selenium\UITest\UIAutomationFramework\UIAutomation.Build\UpdateTestResultXML.exe.config
+D:\repos\nucleus_selenium\UITest\UIAutomationFramework\UIAutomation.Build\UpdateTestResultXML.exe
+D:\repos\nucleus_selenium\UITest\UIAutomationFramework\UIAutomation.Build\UpdateTestResultXML.pdb
+D:\repos\nucleus_selenium\UITest\UIAutomationFramework\UIAutomation.Build\UpdateTestResult\UpdateTestResultXML.exe.config
+D:\repos\nucleus_selenium\UITest\UIAutomationFramework\UIAutomation.Build\UpdateTestResult\UpdateTestResultXML.exe
+D:\repos\nucleus_selenium\UITest\UIAutomationFramework\UIAutomation.Build\UpdateTestResult\UpdateTestResultXML.pdb
+D:\repos\nucleus_selenium\RerunTests\RerunOnlyFailedTestsInBamboo\UpdateTestResultXML\obj\Debug\UpdateTestResultXML.csprojAssemblyReference.cache

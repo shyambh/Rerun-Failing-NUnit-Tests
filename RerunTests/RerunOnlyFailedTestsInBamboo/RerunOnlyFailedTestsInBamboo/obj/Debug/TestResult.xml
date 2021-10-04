@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="1409" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="37" engine-version="3.12.0.0" clr-version="4.0.30319.42000" start-time="2021-08-17 11:04:41Z" end-time="2021-08-17 11:07:39Z" duration="178.269224">
+  <command-line><![CDATA[nunit3-console  Nucleus.UIAutomation.TestSuites.dll --testlist=TestsToRerun.txt]]></command-line>
+  <filter>
+    <or>
+      <test>Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch.Verify_default_for_real_time_clients</test>
+      <test>Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch.Verify_users_are_allowed_to_work_through_the_list_of_claim_results_in_Claim_Search</test>
+      <test>Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch.Validate_nucleus_worklist_is_ordered_by_claim_due_date_client_received_date_claim_seq_ascendingly</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="1-2500" name="Nucleus.UIAutomation.TestSuites.dll" fullname="D:\repos\nucleus_selenium\UITest\UIAutomationFramework\UIAutomation.Build\Nucleus.UIAutomation.TestSuites.dll" runstate="Runnable" testcasecount="1409" result="Passed" start-time="2021-08-17T11:04:42.3619424Z" end-time="2021-08-17T11:07:39.3311665Z" duration="176.967731" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="37">
+    <environment framework-version="3.13.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19042.0" platform="Win32NT" cwd="D:\repos\nucleus_selenium\UITest\UIAutomationFramework\UIAutomation.Build" machine-name="DESKTOP-8U91OR3" user="shyam.bhattarai" user-domain="COTIVITI" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\repos\nucleus_selenium\UITest\UIAutomationFramework\UIAutomation.Build" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="LevelOfParallelism" value="4" />
+      <property name="_PID" value="15056" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="1-2501" name="Nucleus" fullname="Nucleus" runstate="Runnable" testcasecount="1409" result="Passed" start-time="2021-08-17T11:04:42.3869458Z" end-time="2021-08-17T11:07:39.3311665Z" duration="176.944034" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="37">
+      <test-suite type="TestSuite" id="1-2502" name="UIAutomation" fullname="Nucleus.UIAutomation" runstate="Runnable" testcasecount="1409" result="Passed" start-time="2021-08-17T11:04:42.3869458Z" end-time="2021-08-17T11:07:39.3311665Z" duration="176.943447" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="37">
+        <test-suite type="TestSuite" id="1-2503" name="TestSuites" fullname="Nucleus.UIAutomation.TestSuites" runstate="Runnable" testcasecount="1409" result="Passed" start-time="2021-08-17T11:04:42.3869458Z" end-time="2021-08-17T11:07:39.3301941Z" duration="176.942836" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="37">
+          <test-suite type="TestSuite" id="1-2504" name="TestCases" fullname="Nucleus.UIAutomation.TestSuites.TestCases" runstate="Runnable" testcasecount="1409" result="Passed" start-time="2021-08-17T11:04:42.3869458Z" end-time="2021-08-17T11:07:39.3271630Z" duration="176.940218" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="37">
+            <test-suite type="TestFixture" id="1-1842" name="ClaimSearch" fullname="Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch" classname="Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch" runstate="Runnable" testcasecount="39" result="Passed" start-time="2021-08-17T11:04:42.3929459Z" end-time="2021-08-17T11:07:39.3212052Z" duration="176.928211" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="37">
+              <properties>
+                <property name="ParallelScope" value="All" />
+              </properties>
+              <test-case id="1-1864" name="Validate_nucleus_worklist_is_ordered_by_claim_due_date_client_received_date_claim_seq_ascendingly" fullname="Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch.Validate_nucleus_worklist_is_ordered_by_claim_due_date_client_received_date_claim_seq_ascendingly" methodname="Validate_nucleus_worklist_is_ordered_by_claim_due_date_client_received_date_claim_seq_ascendingly" classname="Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch" runstate="Runnable" seed="1345055959" result="Passed" start-time="2021-08-17T11:04:42.4009456Z" end-time="2021-08-17T11:06:02.4116789Z" duration="80.010918" asserts="2">
+                <output><![CDATA[**************************************Validate_nucleus_worklist_is_ordered_by_claim_due_date_client_received_date_claim_seq_ascendingly***************
+**************************************Class Initializing**********************************************************************************************
+Dev
+Dev
+Nucleus: Login page opened
+Login by : uiautomation.
+Nucleus page opened
+Navigated to Claim Search
+Timed out after 0.5 seconds
+Clicked on Search Icon
+Claim sequence set to 1458012-0
+Timed out after 7 seconds
+Clicked on WorkList Icon
+Clicked on Worklist filter carot icon.
+Clicked on Worklist filter carot icon.
+Clear Link Clicked
+<Unreviewed> Selected in <Claim Status> 
+Create Button Clicked
+Automatically opened Patient Claim History page closed
+Timed out after 2 seconds
+Clicked on Claim Search Icon
+List should be soreted in ascending order of client received date. - Is True ? True
+Clear Link Clicked
+**************************************Class CleanUp***************************************************************************************************
+]]></output>
+              </test-case>
+              <test-case id="1-1860" name="Verify_users_are_allowed_to_work_through_the_list_of_claim_results_in_Claim_Search" fullname="Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch.Verify_users_are_allowed_to_work_through_the_list_of_claim_results_in_Claim_Search" methodname="Verify_users_are_allowed_to_work_through_the_list_of_claim_results_in_Claim_Search" classname="Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch" runstate="Runnable" seed="1790472970" result="Passed" start-time="2021-08-17T11:04:42.4049456Z" end-time="2021-08-17T11:06:35.7223786Z" duration="113.316752" asserts="25">
+                <output><![CDATA[**************************************Verify_users_are_allowed_to_work_through_the_list_of_claim_results_in_Claim_Search******************************
+**************************************Class Initializing**********************************************************************************************
+Dev
+Dev
+Nucleus: Login page opened
+Login by : uiautomation.
+Nucleus page opened
+Navigated to Claim Search
+Timed out after 0.5 seconds
+Timed out after 0.5 seconds
+Alert Box wasn't found.
+Clicked Logout Button.
+Login by : ui_automation5.
+Navigated to Claim Search
+Timed out after 0.5 seconds
+Update Claim Status from database claim nos 
+Delete Audit from database if exists for claimno<2202064> date greater than <07-JUN-2017> 
+Claim no set to 2202064
+Iterations are list with most recent claim at top1 : Expected<388931-0>, Actual<388931-0> 
+Iterations are list with most recent claim at top2 : Expected<388575-0>, Actual<388575-0> 
+Iterations are list with most recent claim at top3 : Expected<388567-0>, Actual<388567-0> 
+Iterations are list with most recent claim at top4 : Expected<388499-0>, Actual<388499-0> 
+Iterations are list with most recent claim at top5 : Expected<388491-0>, Actual<388491-0> 
+Is any claims in claim search result is locked? - Is False ? False
+Clicked on claim sequence, navigating to claim action
+Automatically opened Patient Claim History page closed
+Current Claim should be locked. - Is True ? True
+Clicked on Approve button
+Timed out after 0.5 seconds
+Automatically opened Patient Claim History page closed
+Page Should redirect to next claim after approving claim.: Expected <Claim Action> , Actual <Claim Action>
+Clicked on TransferApprove Button.
+StatusCode Selected: <Documentation Requested>
+Clicked on Save Button
+Page Should redirect to next claim after clicking Approve/Transfer claim.: Expected <Claim Action> , Actual <Claim Action>
+Automatically opened Patient Claim History page closed
+Page should advance to next claim of the claim search list.: Expected <388567-0> , Actual <388567-0>
+Clicked on Transfer Button.
+StatusCode Selected: <Documentation Requested>
+Clicked on Save Button
+Automatically opened Patient Claim History page closed
+Page Should redirect to next claim after clicking transfer claim.: Expected <Claim Action> , Actual <Claim Action>
+Page should advance to next claim of the claim search list.: Expected <388499-0> , Actual <388499-0>
+Next Button is clicked.
+Automatically opened Patient Claim History page closed
+Next Button is clicked.
+Page Should redirect to Claim Search page after all claims in claim search result are iterated.: Expected <Claim Search> , Actual <Claim Search>
+Search criteria should retained after navigating back to Claim Search page.: Expected <2202064> , Actual <2202064>
+Search result should retain.: Expected <System.Collections.Generic.List`1[System.String]> , Actual <System.Collections.Generic.List`1[System.String]>
+Clicked on claim sequence, navigating to claim action
+Automatically opened Patient Claim History page closed
+Claim no set to 2202064
+Page Should redirect to Claim Search page when claim is searched with records.: Expected <Claim Search> , Actual <Claim Search>
+Clicked on claim sequence, navigating to claim action
+Automatically opened Patient Claim History page closed
+Clicked on WorkList Icon
+Claim no set to Test123
+No Match Record Message: Expected <No matching records were found.> , Actual <No matching records were found.>
+Page Should redirect to Claim Search page when claim is searched without records.: Expected <Claim Search> , Actual <Claim Search>
+**************************************Class CleanUp***************************************************************************************************
+]]></output>
+              </test-case>
+              <test-case id="1-1870" name="Verify_default_for_real_time_clients" fullname="Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch.Verify_default_for_real_time_clients" methodname="Verify_default_for_real_time_clients" classname="Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch" runstate="Runnable" seed="2049322657" result="Passed" start-time="2021-08-17T11:04:42.4009456Z" end-time="2021-08-17T11:07:39.3161638Z" duration="176.915108" asserts="10">
+                <output><![CDATA[**************************************Verify_default_for_real_time_clients****************************************************************************
+**************************************Class Initializing**********************************************************************************************
+Dev
+Dev
+Nucleus: Login page opened
+Login by : uiautomation.
+Nucleus page opened
+Navigated to Claim Search
+Timed out after 0.5 seconds
+Switching client to CVTY
+Mouse over : Client Search
+Navigated to Client Search
+<CVTY> Selected in <Client Code> 
+Find Button Clicked
+Clicked on Grid row : 1
+<PCA Real-Time> Selected in <Processing Type> 
+Navigated to Claim Search
+Timed out after 0.5 seconds
+<Unreviewed Claims> Selected in <Quick Search> 
+Due Date column should be shown on Claim Search for PCA Real-time clients.: Expected <Due:> , Actual <Due:>
+Due Date Should sorted in ascending Order, claims with oldest date/time should be shown at the top of the list - Is True ? True
+Click on 1 filter option
+Claim search result should be sorted by Claim Sequence in ascending order. - Is True ? True
+Click on 9 filter option
+Clicked on Clear Sort.
+Claim Search result should be sorted by Due Date in ascending Order - Is True ? True
+Click on 9 filter option
+Clicked on Clear Sort.
+Mouse over : Client Search
+Navigated to Client Search
+<CVTY> Selected in <Client Code> 
+Find Button Clicked
+Clicked on Grid row : 1
+<Real-Time> Selected in <Processing Type> 
+Navigated to Claim Search
+Timed out after 0.5 seconds
+Mouse over : Client Search
+Navigated to Client Search
+<CVTY> Selected in <Client Code> 
+Find Button Clicked
+Clicked on Grid row : 1
+<Real-Time> Selected in <Processing Type> 
+Navigated to Claim Search
+Timed out after 0.5 seconds
+<Unreviewed Claims> Selected in <Quick Search> 
+Due Date column should be shown on Claim Search for PCA Real-time clients.: Expected <Due:> , Actual <Due:>
+Due Date Should sorted in ascending Order, claims with oldest date/time should be shown at the top of the list - Is True ? True
+Click on 1 filter option
+Claim search result should be sorted by Claim Sequence in ascending order. - Is True ? True
+Click on 9 filter option
+Clicked on Clear Sort.
+Claim Search result should be sorted by Due Date in ascending Order - Is True ? True
+Click on 9 filter option
+Clicked on Clear Sort.
+Mouse over : Client Search
+Navigated to Client Search
+<CVTY> Selected in <Client Code> 
+Find Button Clicked
+Clicked on Grid row : 1
+<Real-Time> Selected in <Processing Type> 
+Navigated to Claim Search
+Timed out after 0.5 seconds
+**************************************Class CleanUp***************************************************************************************************
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

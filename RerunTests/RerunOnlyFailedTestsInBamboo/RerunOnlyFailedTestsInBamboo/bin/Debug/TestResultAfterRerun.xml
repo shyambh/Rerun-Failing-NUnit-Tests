@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\repos\nucleus_selenium\UITest\UIAutomationFramework\UIAutomation.Build\Nucleus.UIAutomation.TestSuites.dll" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2021-08-17" time="11:48:33">
+  <environment nunit-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="D:\repos\nucleus_selenium\UITest\UIAutomationFramework\UIAutomation.Build" machine-name="DESKTOP-8U91OR3" user="shyam.bhattarai" user-domain="COTIVITI" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\repos\nucleus_selenium\UITest\UIAutomationFramework\UIAutomation.Build\Nucleus.UIAutomation.TestSuites.dll" executed="True" result="Success" success="True" time="173.437" asserts="37">
+    <properties>
+      <property name="LevelOfParallelism" value="4" />
+      <property name="_PID" value="25356" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <results>
+      <test-suite type="TestSuite" name="Nucleus" executed="True" result="Success" success="True" time="173.421" asserts="37">
+        <results>
+          <test-suite type="TestSuite" name="UIAutomation" executed="True" result="Success" success="True" time="173.420" asserts="37">
+            <results>
+              <test-suite type="TestSuite" name="TestSuites" executed="True" result="Success" success="True" time="173.420" asserts="37">
+                <results>
+                  <test-suite type="TestSuite" name="TestCases" executed="True" result="Success" success="True" time="173.420" asserts="37">
+                    <results>
+                      <test-suite type="TestFixture" name="ClaimSearch" executed="True" result="Success" success="True" time="173.416" asserts="37">
+                        <properties>
+                          <property name="ParallelScope" value="All" />
+                        </properties>
+                        <results>
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch.Validate_nucleus_worklist_is_ordered_by_claim_due_date_client_received_date_claim_seq_ascendingly" executed="True" result="Success" success="True" time="73.607" asserts="2" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch.Verify_users_are_allowed_to_work_through_the_list_of_claim_results_in_Claim_Search" executed="True" result="Success" success="True" time="106.944" asserts="25" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.ClaimSearch.Verify_default_for_real_time_clients" executed="True" result="Success" success="True" time="173.407" asserts="10" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

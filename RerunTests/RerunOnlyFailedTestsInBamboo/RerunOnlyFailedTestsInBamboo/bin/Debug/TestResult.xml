@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\agent1\xml-data\build-dir\SELTESG-SURTO-PREAUT1\NucleusBuild\Nucleus.UIAutomation.TestSuites.dll" total="37" errors="2" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2021-08-24" time="07:35:48">
+  <environment nunit-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="E:\agent1\xml-data\build-dir\SELTESG-SURTO-PREAUT1\NucleusBuild" machine-name="VW-VBLDSEL12" user="uiautomation" user-domain="VW-VBLDSEL12" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="E:\agent1\xml-data\build-dir\SELTESG-SURTO-PREAUT1\NucleusBuild\Nucleus.UIAutomation.TestSuites.dll" executed="True" result="Failure" success="False" time="793.115" asserts="1056">
+    <properties>
+      <property name="LevelOfParallelism" value="4" />
+      <property name="_PID" value="15592" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+      <stack-trace />
+    </failure>
+    <results>
+      <test-suite type="TestSuite" name="Nucleus" executed="True" result="Failure" success="False" time="793.098" asserts="1056">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+          <stack-trace />
+        </failure>
+        <results>
+          <test-suite type="TestSuite" name="UIAutomation" executed="True" result="Failure" success="False" time="793.098" asserts="1056">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+              <stack-trace />
+            </failure>
+            <results>
+              <test-suite type="TestSuite" name="TestSuites" executed="True" result="Failure" success="False" time="793.098" asserts="1056">
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                  <stack-trace />
+                </failure>
+                <results>
+                  <test-suite type="TestSuite" name="TestCases" executed="True" result="Failure" success="False" time="793.098" asserts="1056">
+                    <failure>
+                      <message><![CDATA[One or more child tests had errors]]></message>
+                      <stack-trace />
+                    </failure>
+                    <results>
+                      <test-suite type="TestFixture" name="PreAuthAction" executed="True" result="Failure" success="False" time="793.094" asserts="1056">
+                        <properties>
+                          <property name="ParallelScope" value="All" />
+                        </properties>
+                        <failure>
+                          <message><![CDATA[One or more child tests had errors]]></message>
+                          <stack-trace />
+                        </failure>
+                        <results>
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_add_flag_and_select_lines_validation" executed="True" result="Success" success="True" time="54.251" asserts="37" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Addition_Of_Triggerline_While_Adding_Flag" executed="True" result="Success" success="True" time="55.495" asserts="7">
+                            <properties>
+                              <property name="Author" value="Shreya Pradhan" />
+                            </properties>
+                          </test-case>
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_add_flag_functionality" executed="True" result="Success" success="True" time="55.670" asserts="36" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_access_Patient_Claim_History_from_PreAuth_Action" executed="True" result="Success" success="True" time="84.248" asserts="16" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Cancel_Button_In_Delete_Restore_Flag_In_Pre_Auth_Action_Page" executed="True" result="Success" success="True" time="47.539" asserts="7" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Approve_Functionality" executed="True" result="Success" success="True" time="65.333" asserts="42" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_creation_of_PreAuth_Notes" executed="True" result="Success" success="True" time="65.602" asserts="35" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Delete_Restore_Flag_Option_Is_Not_Available_To_Users_Without_Manage_Edits_Privilege" executed="True" result="Success" success="True" time="44.501" asserts="2" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_create_and_manage_logic_on_flag_line" executed="True" result="Success" success="True" time="110.196" asserts="63" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Delete_Restore_Flag_In_Pre_Auth_Action_Page" executed="True" result="Success" success="True" time="63.084" asserts="89">
+                            <properties>
+                              <property name="Author" value="Shreya Shrestha" />
+                            </properties>
+                          </test-case>
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Edit_Of_existing_PreAuth_Notes" executed="True" result="Success" success="True" time="32.474" asserts="29" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Edit_TN_TS_OC" executed="True" result="Success" success="True" time="33.278" asserts="18" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_flag_color_functionality" executed="True" result="Success" success="True" time="36.929" asserts="2" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Denial_Letter_Form_In_Pre_Auth_Action" executed="True" result="Success" success="True" time="105.110" asserts="44">
+                            <properties>
+                              <property name="Author" value="Shyam Bhattarai" />
+                            </properties>
+                          </test-case>
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_flagged_line_data_points" executed="True" result="Success" success="True" time="26.356" asserts="48" />
+                          <test-case>
+                          </test-case>
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_hyperlink_from_TN_to_Tooth_history" executed="True" result="Success" success="True" time="25.707" asserts="40" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Flag_Lines_Deleted_By_Internal_Users_Are_Hidden_To_Client_Users" executed="True" result="Success" success="True" time="76.020" asserts="8" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Line_item_data_points" executed="True" result="Success" success="True" time="26.306" asserts="28" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Navigation_To_Pre_Auth_Action_And_Template" executed="True" result="Success" success="True" time="23.636" asserts="10" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Pre_Auth_Action_Upper_Left_Quadrant" executed="True" result="Success" success="True" time="23.645" asserts="32" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Next_Button_In_Pre_Auth_Action_Page" executed="True" result="Success" success="True" time="52.732" asserts="98" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_pre_auth_processing_history_pop_up" executed="True" result="Success" success="True" time="30.165" asserts="33" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_pre_service_letter_format" executed="True" result="Success" success="True" time="23.901" asserts="4">
+                            <properties>
+                              <property name="Author" value="Bipin" />
+                            </properties>
+                          </test-case>
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Lock_Funtionality" executed="True" result="Success" success="True" time="91.264" asserts="16" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_preauth_history_page_access_by_user_via_client" executed="True" result="Success" success="True" time="28.606" asserts="6">
+                            <properties>
+                              <property name="Author" value="ShreyaS" />
+                            </properties>
+                          </test-case>
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Quick_Delete_Option_In_Pre_Auth_Action" executed="True" result="Failure" success="False" time="23.223" asserts="9">
+                            <properties>
+                              <property name="Author" value="Shreya Pradhan" />
+                            </properties>
+                            <failure>
+                              <message><![CDATA[Test fail due to :
+Flags should have a strikethrough once they are deleted
+  Expected: True
+  But was:  False
+]]></message>
+                              <stack-trace><![CDATA[   at Nucleus.UIAutomation.TestSuites.Base.TestExtensions.ThrowAssertionException(String verificationElement, Boolean takeScreenshot, Exception ex) in E:\agent1\xml-data\build-dir\SELTESG-SURTO-JOB1\UITest\Nucleus.UIAutomation\Nucleus.UIAutomation.TestSuites\Base\TestExtensions.cs:line 588
+   at Nucleus.UIAutomation.TestSuites.Base.TestExtensions.ShouldBeTrue(Boolean condition, String message, Boolean takeScreenshot) in E:\agent1\xml-data\build-dir\SELTESG-SURTO-JOB1\UITest\Nucleus.UIAutomation\Nucleus.UIAutomation.TestSuites\Base\TestExtensions.cs:line 492
+   at Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.<Verify_Quick_Delete_Option_In_Pre_Auth_Action>g__VerifyDeleteRestoreBehaviour|17_0(Boolean deletevalue, Boolean multidelete, <>c__DisplayClass17_0& ) in E:\agent1\xml-data\build-dir\SELTESG-SURTO-JOB1\UITest\Nucleus.UIAutomation\Nucleus.UIAutomation.TestSuites\TestCases\PreAuthAction.cs:line 1848
+   at Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Quick_Delete_Option_In_Pre_Auth_Action() in E:\agent1\xml-data\build-dir\SELTESG-SURTO-JOB1\UITest\Nucleus.UIAutomation\Nucleus.UIAutomation.TestSuites\TestCases\PreAuthAction.cs:line 1824
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_preauth_letter_creation_and_generation_of_letter_record_when_preauth_is_approved" executed="True" result="Success" success="True" time="108.276" asserts="25">
+                            <properties>
+                              <property name="Author" value="Shreya Shrestha" />
+                            </properties>
+                          </test-case>
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_preauth_logics_are_getting_displayed_in_logic_search" executed="True" result="Success" success="True" time="102.727" asserts="32" />
+                          <test-case>
+                          </test-case>
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_red_badge_over_the_preauth_icon_represents_the_number_of_preauth_records_existing_for_patient" executed="True" result="Success" success="True" time="86.691" asserts="5" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_Upper_Right_Quadrant_Icons_and_Tooltips" executed="True" result="Success" success="True" time="23.388" asserts="6">
+                            <properties>
+                              <property name="Author" value="Deeya Shrestha" />
+                            </properties>
+                          </test-case>
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_upload_new_document_in_pre_auth_action_for_Internal_User" executed="True" result="Success" success="True" time="48.127" asserts="50" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_view_delete_of_uploaded_documents_in_Pre_Auth_action_page_for_Internal_User" executed="True" result="Success" success="True" time="31.031" asserts="36" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_transfer_pre_auth" executed="True" result="Success" success="True" time="194.872" asserts="74" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_view_patient_claim_hx_in_pre_auth_action" executed="True" result="Success" success="True" time="153.046" asserts="31" />
+                          <test-case name="Nucleus.UIAutomation.TestSuites.TestCases.PreAuthAction.Verify_TN_TS_And_OC_Are_Shown_In_The_Patient_Pre_Auth_History_Pop_Up" executed="True" result="Success" success="True" time="94.832" asserts="11">
+                            <properties>
+                              <property name="Author" value="Pujan Aryal" />
+                              <property name="ParallelScope" value="None" />
+                            </properties>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
